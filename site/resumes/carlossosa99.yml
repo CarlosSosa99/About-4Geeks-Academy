@@ -1,0 +1,111 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carlos  
+    last_name: Sosa
+    
+    # Define yourself in 4-5 words
+    motto: proactive, supportive, curious, communicative, fun
+    
+    # focus
+    focus: Always learn and grow personally and professionally,
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a junior Web programmer apprentice, and I also like to train constantly through the Internet in everything related to my area of work.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: carlosalbertoit99@gmail.com #optional
+    phone: 786 973 9907 #optional
+    website: carlosalbertoit99.com #optional
+    linkedin: https://www.linkedin.com/in/carlosalbertosg2022/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/CarlosSosa99
+    
+    twitter: '###' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Advanced
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Web development
+
+      - item: mobile application development
+
+      - item: basketball
+
+# Your previous education
+education:
+    - degree: MSc in Computer Science
+      university: University CAECE Argentina
+      # optional
+      university_logo: https://keystoneacademic-res.cloudinary.com/image/upload/element/14/149085_download.png
+      time: 2018 - 2020
+      details: |
+        Successful learning of the bases of structured programming, object-oriented programming, algebraic calculation, logic, practices and development in C, Java, Pythom, file management, database management.
+
+    - degree: Full Stack Web developer
+      university: Miami Dade College
+      # optional
+      university_logo: https://myareanetwork-photos.s3.amazonaws.com/bizlist_photos/t/362805_1573290680.jpg
+      time: 2007 - 2011
+      details: |
+        This course is focused on web programming basics, wire-framing, HTML, CSS, JavaScript, and responsive website design using Bootstrap and coding fundamentals. Students will work on and develop a complete website as a final project, including database access, ReactJs, Firebase Serverless, Advance JavaScript, objects-oriented coding, and API’s.
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Telemarking Operator
+      time: 2018 - 2019
+      company: Aegis Visa Argentina
+      # optional
+      company_logo: https://ii.ct-stc.com/5/logos/empresas/2017/05/16/aegis-argentina-sa-9DA8A0461D2DC23D143352thumbnail.jpeg
+      details: |
+       I was part of the banking and finance team managing VISA products for different recognized banks such as Santander Bank, 
+       ICBC Bank, and HSBC Bank, my main functions and responsibilities were managing the CRM Microsoft Dynamics, performing credit 
+       card extensions, add automatic debits to credit cards, register the client's email for that they receive their electronic statements
+       on time, updating the client's personal information, refinancing client debts, promoting clients about our products and other benefits,
+        providing the best customer service, working in synergy collaborating with new colleagues and help them with systems management, work proactively.
+       
+
+    - role: Web programmer
+      time: 2020 
+      company: Freelance
+      # optional
+      company_logo: 
+      details: |
+        Program Websites for customers, taking care of their requirements, adapting the website to the customer needs.
+         Also, perform the maintenance of the websites and make enhancements that were necessary.
+
+skills:
+    toolset:
+      - name: php, mysql
+        level: 30%
+
+      - name: Javascript & jQuery
+        level: 30%
+
+      - name: HTML5 & CSS
+        level: 70%
+     
